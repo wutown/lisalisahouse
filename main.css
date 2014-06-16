@@ -11,7 +11,7 @@
 }
 
 .jumbotron {
-  background-image:url('/images/imginimg.jpg');
+  background-image:url('https://scontent-b-pao.xx.fbcdn.net/hphotos-xfp1/t1.0-9/10448227_808237132520927_6475314579598856562_n.jpg');
   height: 500px;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .jumbotron h1 {
-  color: #fff;
+  color: #f00;
   font-size: 48px;  
   font-family: 'Shift', sans-serif;
   font-weight: bold;
@@ -29,7 +29,7 @@
 
 .jumbotron p {
   font-size: 20px;
-  color: #fff;
+  color: #f00;
 }
 
 .learn-more {
