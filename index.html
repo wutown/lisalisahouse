@@ -55,7 +55,7 @@
 	         </div>
 	         <div class="col-md-4">
 	            <div class="thumbnail">
-                <img src="images/face.jpg">
+                <img src="images/face.jpg" id="faceid" onclick="DontClickMyFace()">
               </div>
               <div class="thumbnail">
                     <div id="fb-root"></div> 
@@ -95,7 +95,16 @@
 		  </div>
 	   </div>
 	  </div>
-
+<script>
+function DontClickMyFace() {
+    var image = document.getElementById('faceid');
+    if (image.src.match("face")) {
+        image.src = "images/house.jpg";
+    } else {
+        image.src = "images/face.jpg";
+    }
+}
+</script>
 
   </body>
 </html>
